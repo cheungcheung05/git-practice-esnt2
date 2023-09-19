@@ -1,0 +1,233 @@
+  205  $ brew install git
+  206  $ sudo port install git
+  207  $ brew install git
+  208  $ sudo port install git
+  209  git --version
+  210  $ sudo port install git
+  211  $ brew install git
+  216  git --version
+  217  which git
+  218  git --verson
+  219  git --version
+  221  git --version
+  222  git config --global use.name "Christian Cheung\n\n\n"
+  223  git config --global user.email "christiancheung123@gmail.com"
+  224  git config --global core.editor "code --wait"
+  225  git config --global init.defaultBranch main
+  229  git config --list
+  234  cd git\ practice
+  236  git init
+  238  git status
+  242  git status
+  243  git add -a
+  244  git status
+  245  git status -A
+  247  git status
+  248  git add file_1.txt
+  249  git add file_2.txt
+  250  git status
+  251  git commit -m "create new files"
+  252  git log
+  253  nano .gitignore
+  257  cd git\ practice
+  259  git status
+  265  git status
+  266  git add file_1.txt
+  267  git commit file_1.txt 
+  268  git commit file_1.txt 
+  269  git commit file_1.txt -m "added content" 
+  270  git status
+  271  git add file_2.txt
+  272  git commit file_2.txt -m "content inside"
+  273  git log
+  274  git branch new_features.txt
+  275  git branch
+  276  git branch features
+  277  git switch feature
+  278  git switch features
+  279  git branch
+  280  git switch new_features.txt
+  281  git branch features
+  282  git branch
+  283  git switch features
+  284  git git branch -d new_features.txt
+  285  git branch -d new_features.txt
+  286  git branch
+  287  git switch features
+  288  git checkout features
+  291  git add new_features.txt -m "add empty file"
+  292  git add new_features.txt
+  293  git commit new_features.txt -m "add empty file"
+  295  git commit new_features.txt -m "added stuff"
+  296  git checkout master
+  299  git commit file_1.txt -m "add text"
+  300  git merge features
+  301  git merge master
+  302  git merge features
+  303  git log
+  304  git merge features
+  305  git status
+  306  git commit new_features.txt -m "added text"
+  307  git merge main
+  309  git status
+  310  git log
+  311  git remote add origin git@github.com:cheungcheung05/git-practice-esnt2.git
+  312  git remote
+  313  git remote -v
+  314  git log
+  318  git add Readme.md
+  319  git commit Readme.md -m "description"
+  320  git status
+  321  git branch
+  322  git merge features
+  323  git commit new_features.txt -m "added text"
+  324  git config --list
+  325  git branch
+  327  cd git\ practice
+  328  git branch
+  329  git merge features
+  330  git status
+  331  git merge --abort
+  332  git status
+  333  git add .
+  334  git commit -m "text" 
+  335  git switch features
+  336  git checkout features
+  337  git --version
+  339  git checkout master
+  340  git merge features
+  341  git commit -m "merge" 
+  342  git log
+  343  git version
+  345  touch .gitignore
+  347  git status
+  348  nano.gitignore
+  349  nano .gitignore
+  351  git add .gitignore
+  352  git status
+  353  git commit .gitignore
+  354  git commit .gitignore -m "api_keys.txt"
+  358  git status
+  359  git add api_keys.txt
+  361  git commit api_keys.txt
+  362  git commit api_keys.txt -m "added keys"
+  365  git git status
+  366  git status]
+  367  git status
+  368  git log
+  369  git --version
+  371  nano .gitignore
+  373  git --version
+  376  git add new_features.txt
+  377  git commit new_features.txt
+  378  git commit new_features.txt -m "none"
+  379  git switch features
+  382  git add new_features.txt
+  383  git commit new_features.txt -m "new text"
+  384  git switch master
+  385  git merge features
+  387  cd git\ practice
+  389  git merge features
+  390  git merge tool
+  391  git merge tool features
+  393  git status
+  394  git log
+  395  git checkout cd86a66bfe8df2a80f65a466cbc8dba3fb8357fe
+  396  git log --oneline
+  397  git remote add origin git@github.com:cheungcheung05/git-practice-esnt2.git
+  398  git push
+  399  git push origin
+  400  git push -- set - upstream origin master
+  401  git merge features
+  402  git status
+  403  git commit new_features.txt
+  404  git add new_file.txt
+  405  git status
+  406  git switch features
+  407  git status
+  408  git commit -m 
+  409  git commit -m "m"
+  410  git status
+  411  git branch
+  412  git branch -d features
+  416  cd Documents/git\ practice
+  418  git remote add origin git@github.com:cheungcheung05/git-practice-esnt2.git
+  419  git push -u origin main
+  420  git push -u origin main
+  421  git status
+  422  git pull error: failed to push some refs to
+  423  git pull git@github.com:cheungcheung05/git-practice-esnt2.git
+  424  git push -u origin main
+  425  git remote -v
+  426  git remote remove origin
+  427  git remote -v
+  428  git remote add origin git@github.com:cheungcheung05/git-practice-esnt2.git
+  429  git push -u origin main
+  439  cd Documents/git\ practice
+  441  git remote -v
+  442  git remote remove origin
+  443  git remote add origin git@github.com:cheungcheung05/git-practice-esnt2.git
+  444  git push -u origin main
+  445  git push -u origin main
+  446  git pull origin main
+  447  git pull origin master
+  448  git pull origin git@github.com:cheungcheung05/git-practice-esnt2.git
+  449  git push -u origin main
+  450  git pull --rebase origin main
+  451  git status
+  452  git branch
+  453  git remote add origin git@github.com:cheungcheung05/git-practice-esnt2.git
+  454  git push -u origin master
+  455  git branch feature - Cheungcheung05
+  456  git branch
+  457  git branch feature-Cheungcheung05
+  458  git branh
+  459  git branch
+  465  git clone git@github.com:cheungcheung05/git_practice-esnt2.git
+  467  cd git_practice-esnt2
+  470  git add new_file
+  471  git commit newfile -m "newfile"
+  472  git  status
+  473  git commit new_file -m "m"
+  474  git push origin feature-Cheungcheung05
+  475  git push origin feature-Cheungcheung05
+  476  git branch
+  477  git branch\\ngit branch
+  478  git branch
+  479  git branch feature-cheungcheung05
+  480  git branch
+  481  git switch feature-cheungcheung05
+  483  git push origin feature-cheungcheung05
+  484  git stauts
+  485  git status
+  489  git status
+  490  git add new_file.txt
+  491  git commit new_file.txt -m "m"
+  492  git push origin feature-cheungcheung05
+  493  git pull
+  500  cd git\ practice
+  501  git pull
+  507  cd git_practice-esnt2
+  508  git pull
+  509  git branch
+  510  git switch master
+  511  git pull
+  514  git pull
+  515  cd git_practice-esnt2
+  516  git pull
+  518  git pull
+  520  git branch
+  521  git switch feature-cheungcheung05
+  523  git pull
+  524  git branch --set-upstream-to=<remote>/<branch> feature-cheungcheung05
+  525  git pull feature-cheungcheung05
+  526  git switch master
+  528  git pull
+  530  git pull 
+  531  git switch feature-cheungcheung05
+  532  git pull
+  535  rm -rf git_practice-esnt2
+  537  git clone git@github.com:cheungcheung05/git-practice-esnt2.git
+  539  cd git-practice-esnt2
+  544  cd git\ practice
+  545  git log --oneline > gitlog.txt
